@@ -17,7 +17,7 @@ args = parser.parse_args()
 # PingDiscover class.
 class PingDiscover:
     # Constructor.
-    def __init__(self, network, concurrency, timeout=args.timeout):
+    def __init__(self, network, concurrency, timeout=5):
         try:
             self.concurrency = concurrency
             self.timeout = timeout
